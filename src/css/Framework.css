@@ -1,0 +1,688 @@
+/* VARIABLES*/
+/* DefaultButton*/
+/*SmallButton*/
+/*LargeButton*/
+/*Typo*/
+/*Warning*/
+/*Component*/
+/*Jumbotron*/
+/*Nav*/
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1;
+  background-color: lemonchiffon; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  display: inline-block; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+/* VARIABLES*/
+/* DefaultButton*/
+/*SmallButton*/
+/*LargeButton*/
+.ButtonDefault {
+  background-color: #76ff03;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-color: #76ff03;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  width: 6em;
+  height: 2em; }
+
+.ButtonDefault:active {
+  background-color: #6ae900;
+  border-color: #6ae900; }
+
+.ButtonDefault:hover {
+  cursor: pointer; }
+
+.ButtonSmall {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-color: blue;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  width: 6em;
+  height: 2em; }
+
+.ButtonSmall:active {
+  background-color: red;
+  border-color: red; }
+
+.ButtonSmall:hover {
+  cursor: pointer; }
+
+.ButtonLarge {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-color: blue;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  width: 24em;
+  height: 8em; }
+
+.ButtonLarge:active {
+  background-color: red;
+  border-color: red; }
+
+.ButtonLarge:hover {
+  cursor: pointer; }
+
+.Button-blue {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-color: blue;
+  margin-bottom: 2em;
+  margin-top: 2em; }
+
+.Button-blue:active {
+  background-color: #0000cc;
+  border-color: #0000cc; }
+
+.ButtonLarge:hover {
+  cursor: pointer; }
+
+.Button-orange {
+  background-color: orange;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-color: orange;
+  margin-bottom: 2em;
+  margin-top: 2em; }
+
+.Button-orange:active {
+  background-color: #cc8400;
+  border-color: #cc8400; }
+
+.ButtonLarge:hover {
+  cursor: pointer; }
+
+.Button-red {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-color: red;
+  margin-bottom: 2em;
+  margin-top: 2em; }
+
+.Button-red:active {
+  background-color: #cc0000;
+  border-color: #cc0000; }
+
+.ButtonLarge:hover {
+  cursor: pointer; }
+
+.Button-green {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-color: green;
+  margin-bottom: 2em;
+  margin-top: 2em; }
+
+.Button-green:active {
+  background-color: #004d00;
+  border-color: #004d00; }
+
+.ButtonLarge:hover {
+  cursor: pointer; }
+
+.Button-purple {
+  background-color: purple;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-color: purple;
+  margin-bottom: 2em;
+  margin-top: 2em; }
+
+.Button-purple:active {
+  background-color: #4d004d;
+  border-color: #4d004d; }
+
+.ButtonLarge:hover {
+  cursor: pointer; }
+
+.Button-pink {
+  background-color: pink;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-color: pink;
+  margin-bottom: 2em;
+  margin-top: 2em; }
+
+.Button-pink:active {
+  background-color: #ff8da1;
+  border-color: #ff8da1; }
+
+.ButtonLarge:hover {
+  cursor: pointer; }
+
+.Button-black {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-color: black;
+  margin-bottom: 2em;
+  margin-top: 2em; }
+
+.Button-black:active {
+  background-color: black;
+  border-color: black; }
+
+.ButtonLarge:hover {
+  cursor: pointer; }
+
+.Button-yellow {
+  background-color: yellow;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-color: yellow;
+  margin-bottom: 2em;
+  margin-top: 2em; }
+
+.Button-yellow:active {
+  background-color: #cccc00;
+  border-color: #cccc00; }
+
+.ButtonLarge:hover {
+  cursor: pointer; }
+
+.Button-brown {
+  background-color: brown;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-color: brown;
+  margin-bottom: 2em;
+  margin-top: 2em; }
+
+.Button-brown:active {
+  background-color: #7c2020;
+  border-color: #7c2020; }
+
+.ButtonLarge:hover {
+  cursor: pointer; }
+
+.Button-grey {
+  background-color: grey;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-color: grey;
+  margin-bottom: 2em;
+  margin-top: 2em; }
+
+.Button-grey:active {
+  background-color: #676767;
+  border-color: #676767; }
+
+.ButtonLarge:hover {
+  cursor: pointer; }
+
+.ButtonFlat {
+  border: none;
+  background-color: chocolate;
+  color: black; }
+
+.ButtonFullContainer {
+  width: 100%; }
+
+.ButtonFancy {
+  box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.5);
+  background: radial-gradient(red, purple);
+  border-bottom: 5px solid purple;
+  width: 12em;
+  height: 4em; }
+
+.ButtonFancy:active {
+  border-bottom: 1px solid purple; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+  font-weight: bold;
+  font-family: Arial; }
+
+h1 {
+  font-size: xx-large; }
+
+h2 {
+  font-size: x-large; }
+
+h3 {
+  font-size: large; }
+
+h4 {
+  font-size: medium; }
+
+h5 {
+  font-size: small; }
+
+h6 {
+  font-size: x-small; }
+
+small {
+  color: gray;
+  font-size: 60%; }
+
+.sub {
+  color: gray;
+  font-size: 60%; }
+
+body p {
+  margin-bottom: 0px;
+  color: red; }
+
+mark {
+  font-weight: bold;
+  background-color: gold; }
+
+del {
+  text-decoration: line-through; }
+
+ins {
+  background-color: gold; }
+
+u {
+  text-decoration: underline; }
+
+strong {
+  font-weight: bold; }
+
+em {
+  font-style: italic; }
+
+blockquote {
+  font-style: italic;
+  font-weight: 100; }
+
+code {
+  font-family: Courier, monospace; }
+
+.sanspuce {
+  list-style-type: none; }
+
+.puceCarre {
+  list-style-type: square; }
+
+.textLeft {
+  text-align: left; }
+
+.textRight {
+  text-align: right; }
+
+.textCenter {
+  text-align: center; }
+
+.tetJustify {
+  text-align: justify; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.lowercase {
+  text-transform: lowercase; }
+
+table, th, td {
+  border: 1px solid black; }
+
+.tableDefault {
+  border-collapse: collapse; }
+  .tableDefault th {
+    font-weight: bold;
+    padding: 2px; }
+  .tableDefault td {
+    padding: 2px; }
+
+.tableAlternate tr:nth-of-type(2n) {
+  background-color: #ffff99; }
+
+.tableFullBorder {
+  border: 2px solid black; }
+
+.tableLineHover tr:hover {
+  background-color: aqua; }
+
+.jumbotron {
+  background-color: lightgreen;
+  padding: 15px;
+  display: block; }
+  .jumbotron h1 {
+    font-size: xx-large;
+    color: black; }
+  .jumbotron p {
+    font-size: 1em;
+    color: black; }
+
+.NavLeft {
+  background-color: gray;
+  border: 1px solid Black;
+  float: left;
+  min-width: 10%;
+  position: fixed;
+  left: 10px;
+  top: 10px; }
+  .NavLeft a {
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    width: 100%;
+    display: block;
+    text-align: center; }
+
+.NavRight {
+  background-color: gray;
+  border: 1px solid Black;
+  float: left;
+  min-width: 10%;
+  position: fixed;
+  right: 10px;
+  top: 10px; }
+  .NavRight a {
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    width: 100%;
+    display: block;
+    text-align: center; }
+
+.NavHorizontal {
+  background-color: lightgreen;
+  border: 1px solid Black;
+  width: 99.9%;
+  display: block;
+  margin: 0px 0px 1em;
+  text-align: right; }
+  .NavHorizontal li {
+    display: inline-block; }
+  .NavHorizontal a {
+    margin-bottom: 0.25em;
+    height: 100%;
+    display: inline-block;
+    border: 0px solid black;
+    border-radius: 20px;
+    color: white;
+    text-align: right;
+    text-decoration: none;
+    margin-left: 3%; }
+
+.NavBar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; }
+.NavBar li {
+  width: 20em;
+  height: 2em;
+  background-color: #76ff03;
+  border-right: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+.NavBar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold; }
+.NavBar li:hover {
+  background-color: #a0ff50; }
+
+li.active {
+  background-color: #5ecf00; }
+  li.active a {
+    color: #f9f9f9; }
+
+li.active:hover {
+  background-color: #84ff1d; }
+
+li.disabled a {
+  pointer-events: none; }
+
+/*Largeur du div englobant*/
+/*#breadcrumb{width:500px;}*/
+.breadcrump {
+  list-style-type: none;
+  font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+  margin: 10px auto;
+  padding: 10px; }
+  .breadcrump li.first {
+    background: url(../img/first-left.png) 0 0 no-repeat;
+    height: 33px; }
+  .breadcrump li {
+    float: left;
+    background: url(../img/general-left.png) 0 0 no-repeat;
+    line-height: 33px;
+    margin: 5px -5px 0 0;
+    padding-left: 13px; }
+  .breadcrump li a, .breadcrump li span {
+    float: left;
+    background: url(../img/bg-gradient.jpg) 0 0 repeat-x;
+    height: 33px;
+    margin: 0;
+    padding: 0 0 0 5px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em; }
+  .breadcrump li span.end {
+    float: left;
+    background: url(../img/general-right.png) 0 0 no-repeat;
+    width: 15px;
+    height: 33px; }
+
+.pagination {
+  display: inline-block;
+  padding: 0;
+  margin: 0; }
+  .pagination li {
+    display: inline; }
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none; }
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.span-1 {
+  box-sizing: border-box;
+  float: left;
+  width: 12.5%;
+  margin: 0%;
+  margin-bottom: 2em; }
+
+.span-2 {
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+  margin: 0%;
+  margin-bottom: 2em; }
+
+.span-3 {
+  box-sizing: border-box;
+  float: left;
+  width: 37.5%;
+  margin: 0%;
+  margin-bottom: 2em; }
+
+.span-4 {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  margin: 0%;
+  margin-bottom: 2em; }
+
+.span-5 {
+  box-sizing: border-box;
+  float: left;
+  width: 62.5%;
+  margin: 0%;
+  margin-bottom: 2em; }
+
+.span-6 {
+  box-sizing: border-box;
+  float: left;
+  width: 75%;
+  margin: 0%;
+  margin-bottom: 2em; }
+
+.span-7 {
+  box-sizing: border-box;
+  float: left;
+  width: 87.5%;
+  margin: 0%;
+  margin-bottom: 2em; }
+
+.offset-1 {
+  margin-left: 12.5%; }
+
+.offset-2 {
+  margin-left: 25%; }
+
+.offset-3 {
+  margin-left: 37.5%; }
+
+.offset-4 {
+  margin-left: 50%; }
+
+.offset-5 {
+  margin-left: 62.5%; }
+
+.offset-6 {
+  margin-left: 75%; }
+
+.offset-7 {
+  margin-left: 87.5%; }
+
+.AlertInfo {
+  padding: 15px;
+  border-color: gray;
+  background-color: gray;
+  border-radius: 20px;
+  color: black; }
+
+.AlertError {
+  padding: 15px;
+  border-color: red;
+  background-color: red;
+  border-radius: 20px;
+  color: white; }
+
+.AlertSucces {
+  padding: 15px;
+  border-color: green;
+  background-color: green;
+  border-radius: 20px;
+  color: black; }
+
+/*# sourceMappingURL=Framework.css.map */
